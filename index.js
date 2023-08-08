@@ -1,7 +1,7 @@
 const express = require("express");
 const { dbConfig } = require("./configs/dbConfig.js");
 const { requestResponseLogger } = require("./middlewares");
-const userRouter = require("./routes/userRouter.js");
+const userRouter = require("./routers/userRouter.js");
 require("dotenv").config();
 
 const app = express();
